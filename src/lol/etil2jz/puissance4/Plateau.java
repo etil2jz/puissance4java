@@ -1,15 +1,16 @@
 package lol.etil2jz.puissance4;
 
 public class Plateau {
-    private int hauteur; // Nombre de lignes
-    private int longueur; // Nombre de colonnes
+
+    private int hauteur;
+    private int largeur;
     private int[][] tableau;
 
     // Constructeur
-    public Plateau(int hauteur, int longueur) {
+    public Plateau(int hauteur, int largeur) {
         this.hauteur = hauteur;
-        this.longueur = longueur;
-        this.tableau = new int[hauteur][longueur];
+        this.largeur = largeur;
+        this.tableau = new int[hauteur][largeur];
         //initialiserTableau();
     }
 
@@ -23,9 +24,14 @@ public class Plateau {
     }*/
 
     public void affichage() {
+        
+    }
+
+    /*
+    public void affichage() {
         // Affichage de la première ligne avec les numéros de colonnes
         System.out.print("+--");
-        for (int i = 1; i <= longueur; i++) {
+        for (int i = 1; i <= largeur; i++) {
             System.out.print(i + "--");
         }
         System.out.println("+");
@@ -33,7 +39,7 @@ public class Plateau {
         // Affichage du reste du plateau avec les séparateurs et les valeurs
         for (int i = 0; i < hauteur; i++) {
             System.out.print("|  ");
-            for (int j = 0; j < longueur; j++) {
+            for (int j = 0; j < largeur; j++) {
                 System.out.print(tableau[i][j] + "  ");
             }
             System.out.println("|");
@@ -41,11 +47,11 @@ public class Plateau {
 
         // Affichage de la dernière ligne avec les séparateurs
         System.out.print("+--");
-        for (int i = 1; i <= longueur; i++) {
+        for (int i = 1; i <= largeur; i++) {
             System.out.print(i + "--");
         }
         System.out.println("+");
     }
+    */
+
 }
-
-

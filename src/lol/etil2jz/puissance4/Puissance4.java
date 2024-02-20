@@ -2,11 +2,17 @@ package lol.etil2jz.puissance4;
 
 public class Puissance4 {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
         System.out.println("Hello Word!");
 
         Plateau plateau = new Plateau(6, 7);
-        plateau.affichage();
+        //plateau.affichage();
+        Thread.sleep(3000);
+        Utils.clearScreen();
+        System.out.println("Ceci est un test");
+        Thread.sleep(3000);
+        Utils.clearScreen();
+
 
         // Vous pouvez ajouter d'autres opérations sur le plateau ici si nécessaire
 
