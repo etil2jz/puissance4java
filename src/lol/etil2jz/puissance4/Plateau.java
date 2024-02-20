@@ -10,17 +10,7 @@ public class Plateau {
         this.hauteur = hauteur;
         this.longueur = longueur;
         this.tableau = new int[hauteur][longueur];
-        //initialiserTableau();
     }
-
-    // Méthode pour initialiser le tableau
-   /*  private void initialiserTableau() {
-        for (int i = 0; i < hauteur; i++) {
-            for (int j = 0; j < longueur; j++) {
-                tableau[i][j] = i * longueur + j + 1;
-            }
-        }
-    }*/
 
     public void affichage() {
         // Affichage de la première ligne avec les numéros de colonnes
