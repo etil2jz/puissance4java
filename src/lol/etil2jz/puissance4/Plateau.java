@@ -20,24 +20,24 @@ public class Plateau {
     
     public void affichage() {
 
-        System.out.print("\u001b[36m+--");
+        System.out.print(Couleur.palette("cyan")+"+--");
         for (int i = 1; i <= largeur; i++) {
             System.out.print(i + "--");
         }
-        System.out.println("+\u001B[0m");
+        System.out.println("+"+Couleur.palette(""));
     
         for (int i = 0; i < hauteur; i++) {
-            System.out.print("\u001B[36m|  \u001B[0m");
+            System.out.print(Couleur.palette("cyan")+"|  "+ Couleur.palette(""));
             for (int j = 0; j < largeur; j++) {
                 System.out.print(tableau[i][j] + "  ");
             }
-            System.out.println("\u001B[36m|\u001B[0m");
+            System.out.println(Couleur.palette("cyan")+"|"+ Couleur.palette(""));
         }
-        System.out.print("\u001b[36m+--");
+        System.out.print(Couleur.palette("cyan")+"+--");
         for (int i = 1; i <= largeur; i++) {
             System.out.print(i + "--");
         }
-        System.out.println("+ \u001B[0m");
+        System.out.println("+"+Couleur.palette(""));
     }
     
     
