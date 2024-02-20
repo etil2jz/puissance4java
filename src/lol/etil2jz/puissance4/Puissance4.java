@@ -13,10 +13,5 @@ public class Puissance4 {
         Thread.sleep(3000);
         Utils.clearScreen();
 
-
-        // Vous pouvez ajouter d'autres opérations sur le plateau ici si nécessaire
-
-        // Vous pouvez à nouveau afficher le plateau après les modifications
-        //plateau.affichage();
     }
 }
