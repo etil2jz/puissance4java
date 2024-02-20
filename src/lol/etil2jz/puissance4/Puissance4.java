@@ -6,12 +6,13 @@ public class Puissance4 {
         System.out.println("Hello Word!");
 
         Plateau plateau = new Plateau(6, 7);
-        //plateau.affichage();
+        
         Thread.sleep(3000);
         Utils.clearScreen();
         System.out.println("Ceci est un test");
-        Thread.sleep(3000);
-        Utils.clearScreen();
+        plateau.affichage();
+        //Thread.sleep(3000);
+        //Utils.clearScreen();
 
     }
 }
