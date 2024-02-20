@@ -1,4 +1,4 @@
-package main.java.lol.etil2jz;
+package lol.etil2jz.puissance4;
 
 public class Puissance4 {
 
