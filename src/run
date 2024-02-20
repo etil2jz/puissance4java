@@ -1,0 +1,3 @@
+#!/bin/bash
+javac ./lol/etil2jz/puissance4/Puissance4.java
+java lol.etil2jz.puissance4.Puissance4
