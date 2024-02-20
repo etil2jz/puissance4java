@@ -5,6 +5,10 @@ public class Puissance4 {
 
     public static void main(String[] args) {
         System.out.println("Hello Word!");
+        
+        Plateau instancPlateau = new Plateau();
+
+        instancPlateau.Affichage();
     }
 
 }
